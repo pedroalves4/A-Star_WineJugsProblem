@@ -27,7 +27,7 @@ namespace Trabalho_IA
 
             while (!transitions.IsProblemSolved(currentNode))
             {
-                Console.WriteLine($"Nó atuall: {Helper.PrintNode(currentNode)}");
+                Console.WriteLine($"Nó atualll: {Helper.PrintNode(currentNode)}");
 
                 var avaialbieTransitions = transitions.AvailableTransitions(currentNode);
 
