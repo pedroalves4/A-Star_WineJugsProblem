@@ -29,7 +29,7 @@ namespace Trabalho_IA
             {
                 Console.WriteLine($"Nó atualll: {Helper.PrintNode(currentNode)}");
 
-                var commitSegundaBranchSaindoDaMaster = 0;
+                var commitSegundaBranchSaindoDaMaster = 1;
 
                 var avaialbieTransitions = transitions.AvailableTransitions(currentNode);
 
