@@ -29,6 +29,8 @@ namespace Trabalho_IA
             {
                 Console.WriteLine($"Nó atualll: {Helper.PrintNode(currentNode)}");
 
+                var commitSegundaBranchSaindoDaMaster = 0;
+
                 var avaialbieTransitions = transitions.AvailableTransitions(currentNode);
 
                 currentNode = transitions.ChooseBestNode(avaialbieTransitions);
