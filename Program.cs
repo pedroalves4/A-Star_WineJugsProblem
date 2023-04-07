@@ -31,6 +31,8 @@ namespace Trabalho_IA
 
                 var commitPrimeiraBranchSaindoDaMaster = 0;
 
+                var commitSegundaBranchSaindoDaMaster = 1;
+
                 var avaialbieTransitions = transitions.AvailableTransitions(currentNode);
 
                 currentNode = transitions.ChooseBestNode(avaialbieTransitions);
