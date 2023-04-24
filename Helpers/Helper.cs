@@ -37,5 +37,10 @@ namespace Trabalho_IA.Helpers
 
             return $"( {returnString}), {node.Depth}";
         }
+
+        public static void LongParameterListTest(string param1, string param2, string param3, string param4, string param5, string param6, string param7, string param8, string param9, string param10, string param11, string param12, string param13, string param14)
+        {
+            Console.WriteLine(param1 + param2);
+        }
     }
 }
